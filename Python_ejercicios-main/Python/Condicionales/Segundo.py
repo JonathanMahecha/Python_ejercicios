@@ -2,9 +2,8 @@
 #"Usted es mayor de edad", de lo contrario "Usted es menor de edad". Si el número ingresado es negativo 
 #o la edad ingresada es mayor a 100 años, mostrar al usuario un mensaje de ingresar una edad válida.
 
-nombre = str(input("Ingrese su nombre: "))
 edad = int(input("Ingrese su edad: "))
 
-if edad >= 18 and edad < 100: print(f"{nombre} Usted es mayor de edad")
-elif edad < 0 or edad >= 100: print(f"{nombre} Ingrese un edad valida")
-else: (f"{nombre} Usted es menor de edad")
+if edad >= 18 and edad < 100: print("Usted es mayor de edad")
+elif edad < 0 or edad >= 100: print("Ingrese un edad valida")
+else: ("Usted es menor de edad")
